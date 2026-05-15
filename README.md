@@ -39,3 +39,15 @@ deepfake-detection-xai/
 - Better generalization across manipulations
 - Transformer-based architectures
 - Web deployment using Streamlit
+## Sample Run
+
+The explainability pipeline successfully generated Grad-CAM based visual explanations for prediction analysis.
+
+Example execution:
+
+```bash
+python src/predict.py
+python src/explain.py
+```
+
+Output generated inside the `results/` directory.
