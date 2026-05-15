@@ -24,3 +24,18 @@ deepfake-detection-xai/
 ├── results/
 └── requirements.txt
 ```
+## Project Pipeline
+
+1. Image preprocessing
+2. CNN-based deepfake classification
+3. Prediction generation
+4. Grad-CAM based explainability
+5. Heatmap visualization
+
+## Future Work
+
+- Real Grad-CAM implementation
+- Training on benchmark datasets
+- Better generalization across manipulations
+- Transformer-based architectures
+- Web deployment using Streamlit
